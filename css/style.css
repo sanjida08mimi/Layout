@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+@media  screen and (max-width: 360px) {
+    .container .menu ul li a{
+        padding: 2px;
+        font-size: 8px;
+    } 
+    .container .menu{
+        width: 80%;
+        padding: 10px;
+    }
+    body .header{
+        height: 50px;
+    }
+    .container .logo{
+        width: 5%;
+        padding: 10px;
+    } 
+    .container .ban_container{
+        margin-top: 20px;
+    } 
+    body .footer {
+        height: 50px;
+        padding: 10px;
+    } 
+    .footer .foot_text{
+        padding: 0;
+        font-size: 10px;
+    }
+  }
+  
+.header{
+    height: 100px;
+    border-bottom: 3px solid black;
+} 
+.container{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    overflow: hidden;
+} 
+.logo{
+    width: 7%;
+    /* border: 1px solid red; */
+    display: inline-block;
+    padding: 12px;
+}
+.logo img{
+    width: 100%;
+} 
+.menu{
+    width: 60%;
+    float: right;
+    /* border: 1px solid red; */
+}
+.menu ul{
+    float: left;
+} 
+.menu ul li{
+   list-style: none;
+   float: left;
+} 
+.menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 31px 15px;
+    font-size: 16px;
+} 
+
+.ban_container{
+    margin-top: 100px;
+}
+.banner{
+   float: left;
+   width: 50%;
+
+} 
+.poster{
+    float: right;
+    width:50% ;
+} 
+.banner img{
+    width: 100%;
+}
+.poster img{
+    width: 100%;
+}
+.cupcake{
+ width: 90%;
+ overflow: hidden;
+ margin: 0 auto;
+} 
+.m1{
+  float: left;
+  padding: 5%;
+  width: 40%;
+} 
+.m1 img{
+    width: 100%;
+} 
+.footer{
+    background-color:#4a235a ;
+    height: 150px;
+    margin: 0 auto;
+} 
+
+.foot_text{ 
+    padding: 30px;
+    color: white;
+    text-align: center; 
+  
+}
+.social i{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
